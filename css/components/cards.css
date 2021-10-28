@@ -1,0 +1,32 @@
+.card-trip {
+  overflow: hidden;
+  background: rgb(102, 243, 8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 10px;
+  opacity: .7;
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 300px;
+  padding: 56px;
+}
